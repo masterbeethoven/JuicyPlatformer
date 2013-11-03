@@ -47,6 +47,8 @@
      <Compile Include="Assets\Scripts\GetAxisCode.cs" />
      <Compile Include="Assets\Scripts\Gmod8Platformer.cs" />
      <Compile Include="Assets\Scripts\PlatformerAnimation.cs" />
+     <Compile Include="Assets\Scripts\WaterDeform.cs" />
+     <Compile Include="Assets\Scripts\WaterWave.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

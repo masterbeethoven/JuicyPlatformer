@@ -53,4 +53,8 @@ public class GetAxisCode : MonoBehaviour {
 	
 		audio.PlayOneShot(impact, 10f);
 	}
+	
+	void OnTriggerEnter() {
+		transform.position = new Vector3 (0f, 0f, 0f);
+	}
 }

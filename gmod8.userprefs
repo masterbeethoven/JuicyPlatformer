@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../gmod7/Assets/Scripts/BallClack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaterDeform.cs">
     <Files>
-      <File FileName="../gmod7/Assets/Scripts/BallClack.cs" Line="37" Column="18" />
-      <File FileName="Assets/Scripts/GetAxisCode.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WaterWave.cs" Line="8" Column="69" />
+      <File FileName="Assets/Scripts/WaterDeform.cs" Line="26" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
