@@ -239,6 +239,7 @@ GameObject:
   - 33: {fileID: 233035138}
   - 65: {fileID: 233035137}
   - 23: {fileID: 233035136}
+  - 114: {fileID: 233035140}
   m_Layer: 0
   m_Name: Floor7
   m_TagString: Untagged
@@ -291,9 +292,20 @@ Transform:
   m_GameObject: {fileID: 233035135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.7275696, y: 30.6327438, z: -30.8022614}
-  m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
+  m_LocalScale: {x: 4.57818508, y: 1.25132978, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &233035140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 233035135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f4bcdd569cb44e8abf3de705a771dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &376731673
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,6 +317,7 @@ GameObject:
   - 33: {fileID: 376731676}
   - 65: {fileID: 376731675}
   - 23: {fileID: 376731674}
+  - 114: {fileID: 376731678}
   m_Layer: 0
   m_Name: Floor3
   m_TagString: Untagged
@@ -357,9 +370,20 @@ Transform:
   m_GameObject: {fileID: 376731673}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.8404541, y: 29.1601486, z: -19.7688026}
-  m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
+  m_LocalScale: {x: 4.57818508, y: .733035028, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &376731678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376731673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b8715259a73a4130a3ebed2ea9a5095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &468752429
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +395,7 @@ GameObject:
   - 33: {fileID: 468752432}
   - 65: {fileID: 468752431}
   - 23: {fileID: 468752430}
+  - 114: {fileID: 468752434}
   m_Layer: 0
   m_Name: Floor4
   m_TagString: Untagged
@@ -422,10 +447,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 468752429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.15046883, y: 30.4608421, z: -19.7688026}
-  m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
+  m_LocalPosition: {x: .0013833046, y: 30.4608421, z: -19.7688026}
+  m_LocalScale: {x: 4.57818508, y: 4.86371469, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &468752434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 468752429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10906797d476f4171ad18c84730e3f89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &856560562
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,6 +535,7 @@ GameObject:
   - 33: {fileID: 861948476}
   - 65: {fileID: 861948475}
   - 23: {fileID: 861948474}
+  - 114: {fileID: 861948478}
   m_Layer: 0
   m_Name: Floor8
   m_TagString: Untagged
@@ -554,6 +591,17 @@ Transform:
   m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &861948478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 861948473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a936145783954c20b93534355ed29ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &957616951
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +681,7 @@ GameObject:
   - 23: {fileID: 1233485154}
   - 114: {fileID: 1233485158}
   - 114: {fileID: 1233485159}
-  - 54: {fileID: 1233485160}
+  - 82: {fileID: 1233485160}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -666,7 +714,7 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233485153}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_SmoothSphereCollisions: 0
@@ -687,7 +735,7 @@ Transform:
   m_GameObject: {fileID: 1233485153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.0381527, y: 27.733057, z: -7.23012543}
-  m_LocalScale: {x: 5.88994169, y: 1, z: 5.75104904}
+  m_LocalScale: {x: 15.091074, y: 2.0302949, z: 10.4045296}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &1233485158
@@ -715,21 +763,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveheight: .00899999961
   wavesize: 2
---- !u!54 &1233485160
-Rigidbody:
+--- !u!82 &1233485160
+AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233485153}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 6042e9a1de089468da4ae39f839dadc9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &1281987271
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +1005,7 @@ GameObject:
   - 33: {fileID: 1569594165}
   - 65: {fileID: 1569594164}
   - 23: {fileID: 1569594163}
+  - 114: {fileID: 1569594167}
   m_Layer: 0
   m_Name: Floor6
   m_TagString: Untagged
@@ -969,6 +1061,17 @@ Transform:
   m_LocalScale: {x: 4.57818508, y: 3.47095299, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1569594167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1569594162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9f4090de60347f28cab20e8fb3842e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1749032559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,6 +1138,7 @@ GameObject:
   - 33: {fileID: 1821291323}
   - 65: {fileID: 1821291322}
   - 23: {fileID: 1821291321}
+  - 114: {fileID: 1821291325}
   m_Layer: 0
   m_Name: Floor9
   m_TagString: Untagged
@@ -1087,9 +1191,20 @@ Transform:
   m_GameObject: {fileID: 1821291320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.68049049, y: 29.0916405, z: -27.179203}
-  m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
+  m_LocalScale: {x: 4.57818508, y: 3.36700797, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1821291325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821291320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b8715259a73a4130a3ebed2ea9a5095, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1824879054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1326,7 @@ GameObject:
   - 33: {fileID: 1869215439}
   - 65: {fileID: 1869215438}
   - 23: {fileID: 1869215437}
+  - 114: {fileID: 1869215441}
   m_Layer: 0
   m_Name: Floor1
   m_TagString: Untagged
@@ -1262,10 +1378,21 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1869215436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.46411943, y: 30.2161541, z: -8.52491474}
+  m_LocalPosition: {x: 4.46411943, y: 30.5316105, z: -8.52491474}
   m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1869215441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1869215436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab7326c8f62447ab847f38b092377b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1895634643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1408,7 @@ GameObject:
   - 114: {fileID: 1895634650}
   - 114: {fileID: 1895634651}
   - 82: {fileID: 1895634652}
-  - 114: {fileID: 1895634648}
+  - 114: {fileID: 1895634653}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1334,24 +1461,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1895634643}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.9264822, y: 31.5132771, z: -9.19407272}
+  m_LocalPosition: {x: 13, y: 30, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1913222277}
   - {fileID: 1338716862}
   m_Father: {fileID: 0}
---- !u!114 &1895634648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1895634643}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de369f9a9c6d44d0c96cd73945395e9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidbody: {fileID: 1895634649}
 --- !u!54 &1895634649
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1450,6 +1565,57 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1895634653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1895634643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169c0b62399474abdac306db324e8c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1913222276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1488,6 +1654,7 @@ GameObject:
   - 33: {fileID: 2056023372}
   - 65: {fileID: 2056023371}
   - 23: {fileID: 2056023370}
+  - 114: {fileID: 2056023374}
   m_Layer: 0
   m_Name: Floor5
   m_TagString: Untagged
@@ -1543,6 +1710,17 @@ Transform:
   m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2056023374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2056023369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce228f13dc4741bb94c47f6c3ac85b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2104323895
 GameObject:
   m_ObjectHideFlags: 0
@@ -1554,6 +1732,7 @@ GameObject:
   - 33: {fileID: 2104323898}
   - 65: {fileID: 2104323897}
   - 23: {fileID: 2104323896}
+  - 114: {fileID: 2104323900}
   m_Layer: 0
   m_Name: Floor10
   m_TagString: Untagged
@@ -1609,3 +1788,14 @@ Transform:
   m_LocalScale: {x: 4.57818508, y: .155967742, z: 4.4213295}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2104323900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2104323895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ab7326c8f62447ab847f38b092377b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

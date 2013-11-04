@@ -46,6 +46,14 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\GetAxisCode.cs" />
      <Compile Include="Assets\Scripts\Gmod8Platformer.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform1.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform3.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform4.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform5.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform6.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform7.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform8.cs" />
      <Compile Include="Assets\Scripts\PlatformerAnimation.cs" />
      <Compile Include="Assets\Scripts\WaterDeform.cs" />
      <Compile Include="Assets\Scripts\WaterWave.cs" />

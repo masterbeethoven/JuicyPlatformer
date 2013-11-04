@@ -1,9 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaterDeform.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MovingPlatform8.cs">
     <Files>
-      <File FileName="Assets/Scripts/WaterWave.cs" Line="8" Column="69" />
-      <File FileName="Assets/Scripts/WaterDeform.cs" Line="26" Column="49" />
+      <File FileName="Assets/Scripts/MovingPlatform.cs" Line="18" Column="85" />
+      <File FileName="Assets/Scripts/MovingPlatform1.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform2.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform3.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform4.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform5.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform6.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform7.cs" Line="4" Column="29" />
+      <File FileName="Assets/Scripts/MovingPlatform8.cs" Line="4" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -55,6 +55,8 @@ public class GetAxisCode : MonoBehaviour {
 	}
 	
 	void OnTriggerEnter() {
-		transform.position = new Vector3 (0f, 0f, 0f);
+		transform.position = new Vector3 (11f, 31f, -9f);
+		
 	}
+	
 }
